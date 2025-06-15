@@ -14,6 +14,7 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
+
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -21,7 +22,7 @@ body {
 
 #requirements h2,
 #guide h2 {
-    font-size: 8rem;
+    font-size: 5rem;
     background-image: url("anim.gif");
     background-clip: text;
     text-align: center;
@@ -30,7 +31,7 @@ body {
 }
 
 #guide h2 {
-    font-size: 10rem;
+    font-size: 7rem;
 }
 
 #guide {
@@ -63,11 +64,11 @@ body {
 }
 
 .card {
-    width: 700px;
-    min-height: 700px;
+    width: 500px;
+    min-height: 300px;
     height: fit-content;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .cards a:hover {
@@ -75,7 +76,7 @@ body {
 }
 
 .card-title {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .card-banner {
@@ -113,13 +114,14 @@ body {
     color: transparent
 }
 
-#requirements ol {
+#requirements div {
     width: 50%;
     height: 100vh;
-    font-size: 3rem;
+    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -128,7 +130,7 @@ footer {
     width: 100vw;
     height: 50vh;
     text-align: center;
-    font-size: 10rem;
+    font-size: 6rem;
     z-index: -3;
 }
 
@@ -178,7 +180,7 @@ body * {
 }
 
 .header-main h1 {
-    font-size: 20rem;
+    font-size: 8rem;
 }
 
 .btn-primary {
@@ -187,7 +189,7 @@ body * {
     text-decoration: none;
     padding: 1%;
     border-radius: 10px;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .btn-primary:hover {
@@ -221,6 +223,11 @@ nav {
     z-index: 9999;
 }
 
+nav img {
+    width: 8rem;
+    aspect-ratio: 1/1;
+}
+
 nav .links {
     width: 70%;
     height: 100%;
@@ -229,7 +236,7 @@ nav .links {
     align-items: center;
     justify-content: end;
     padding-right: 2%;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: "Poppins", sans-serif;
     gap: 80px;
 }
@@ -252,7 +259,7 @@ nav .links a {
     border: 2px solid #fff;
     padding: 1%;
     border-radius: 10px;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .btn-primary-outline:hover {
@@ -300,8 +307,9 @@ body {
 }
 
 .submission {
-    width: 800px;
-    height: 900px;
+    width: 500px;
+    min-height: 400px;
+    height: fit-content;
 }
 
 .submission .info {
@@ -340,13 +348,13 @@ body {
 
 
 .submission p {
-    font-size: 1.8rem;
+    font-size: 1rem;
     text-align: center;
 }
 
 .submission a {
     aspect-ratio: 1/1;
-    font-size: 3rem;
+    font-size: 1.2rem;
     display: flex;
     padding: 3%;
     border-radius: 9999999px;
